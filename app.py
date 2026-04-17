@@ -3,7 +3,7 @@ import requests
 
 app = Flask(__name__)
 
-TOKEN = "8536626492:AAECKLNTUGYUwt8akKE3sGFkFKKPEMyIO68"   # 👉 यहाँ अपना BotFather token डालो
+TOKEN = "68"   # 👉 यहाँ अपना BotFather token डालो
 
 # 🔹 Telegram webhook route
 @app.route(f"/webhook/{TOKEN}", methods=["POST"])
